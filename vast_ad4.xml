@@ -1,0 +1,20 @@
+<VAST version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd">
+  <Ad id="001">
+    <InLine>
+      <AdSystem version="1.0">GitHub VAST Example</AdSystem>
+      <AdTitle>Sample GitHub Video Ad</AdTitle>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080">
+                https://raw.githubusercontent.com/AdsMarketing-bit/Ads/main/4.mp4
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
